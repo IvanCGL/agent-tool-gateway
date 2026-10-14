@@ -1,0 +1,78 @@
+
+# ==============================
+# Java / Maven / Gradle
+# ==============================
+target/
+build/
+*.class
+*.log
+
+# Maven Wrapper JAR (downloaded when needed)
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# IDE / Editor
+# ==============================
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Eclipse / STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+*.local.properties
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==============================
+# Local Runtime Data
+# ==============================
+data/
+volumes/
+tmp/
+temp/
+*.pid
+
+# ==============================
+# Logs / Performance Results
+# ==============================
+logs/
+*.log.*
+performance-results/
+benchmark-results/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
